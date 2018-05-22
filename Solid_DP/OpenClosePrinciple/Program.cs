@@ -30,10 +30,10 @@ namespace OpenClosePrinciple
     public class ProductFilter
     {
         // The open-close principale is violated because, 
-        // for ex, if we want to extent add the capability to filter by size and color
+        // for ex, if we want to extend the capability to be able to filter by size and color
         // we would have to modify the class
-        // Solution is to use inheritance by implementing an 'enterprise pattern' called specification pattern
-        // implemented using a bunch of interfaces
+        // A solution is to use inheritance by implementing an 'enterprise pattern' called specification pattern
+        // using a bunch of interfaces
         public static IEnumerable<Product> FilterBySize(IEnumerable<Product> products, Size size)
         {
             foreach (var product in products)
