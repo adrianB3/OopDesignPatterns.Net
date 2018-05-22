@@ -5,11 +5,11 @@ using System.IO;
 namespace SRP
 {
     // Single Responsibility Principle
-    
+
     // A class should have only one reason to change, a single responsibility
     public class Journal
     {
-        private readonly List<string> _entries = new List<string>(); 
+        private readonly List<string> _entries = new List<string>();
         private static int _count = 0;
 
         public int AddEntry(string text)
@@ -17,7 +17,7 @@ namespace SRP
             _entries.Add($"{ ++_count }: { text }");
             return _count; // memento
         }
-        
+
         public void RemoveEntry(int index)
         {
             _entries.RemoveAt(index);
@@ -69,7 +69,8 @@ namespace SRP
 
             var filePersistence = new Persistence();
             var filename = @"test.txt"; // saved in the debug/release folder
-            filePersistence.SaveToFile(myJournal,filename,true);
+            filePersistence.SaveToFile(myJournal, filename, true);
         }
     }
 }
+
