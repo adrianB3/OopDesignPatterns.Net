@@ -5,7 +5,7 @@ namespace WithoutBuilder
 {
     class Program
     {
-        // Little example to show how a program that is supposed to
+        // Little example to show a program that is supposed to
         // output html format content without using a builder
         // The program easily gets very clutered adding more functionality
         static void Main(string[] args)
