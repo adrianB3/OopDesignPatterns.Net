@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitutionPrinciple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP", "ISP\ISP.csproj", "{A9DA7203-7C20-4E17-91D1-B103FF092F45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP", "DIP\DIP.csproj", "{CE36C67A-F9FC-47DA-8F66-2746EB4406F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A9DA7203-7C20-4E17-91D1-B103FF092F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9DA7203-7C20-4E17-91D1-B103FF092F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9DA7203-7C20-4E17-91D1-B103FF092F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE36C67A-F9FC-47DA-8F66-2746EB4406F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE36C67A-F9FC-47DA-8F66-2746EB4406F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE36C67A-F9FC-47DA-8F66-2746EB4406F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE36C67A-F9FC-47DA-8F66-2746EB4406F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
