@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithoutBuilder", "Builder_DP\WithoutBuilder.csproj", "{AEAC483E-1129-416D-AC6A-C5107B4CA507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTML_Builder", "HTML_Builder\HTML_Builder.csproj", "{34CEA73D-F85F-42A2-8F4C-E00C2DF334E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEAC483E-1129-416D-AC6A-C5107B4CA507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEAC483E-1129-416D-AC6A-C5107B4CA507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEAC483E-1129-416D-AC6A-C5107B4CA507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEAC483E-1129-416D-AC6A-C5107B4CA507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CEA73D-F85F-42A2-8F4C-E00C2DF334E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CEA73D-F85F-42A2-8F4C-E00C2DF334E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CEA73D-F85F-42A2-8F4C-E00C2DF334E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CEA73D-F85F-42A2-8F4C-E00C2DF334E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F3FC91C-3DC6-470E-8834-6FB0E63832A9}
+	EndGlobalSection
+EndGlobal
