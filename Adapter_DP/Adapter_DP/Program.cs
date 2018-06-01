@@ -145,7 +145,7 @@ namespace Adapter_DP
         static void Main(string[] args)
         {
             Draw();
-            Draw(); // the points are generated only 8 times because we used a caching
+            Draw(); // the points are generated only 8 times because we used caching
         }
 
         // A side effect of the adapter is that is generating a lot of temporary information
