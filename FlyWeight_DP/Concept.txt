@@ -1,0 +1,3 @@
+Flyweithy it's a space optimization technique
+that lets us use less memory by storing 
+externally the data asociated with similar objects.
