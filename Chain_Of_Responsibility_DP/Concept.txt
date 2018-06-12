@@ -1,0 +1,20 @@
+The chain of responsibility is a chain
+of components who all get the chance 
+to process a command or a query, 
+optionaly having default processing
+and an ability to terminate the process chain.
+
+Command query separation
+Means separating all the invocations of an entity
+into 2 concepts: query and command.
+Command -> asking for an action or change
+Query -> asking for information without changing it
+CQS -> having separate means of sending commands and queries
+
+Example: 
+If you want to access a field from an object
+- send a message that states that you want a particular field
+or
+- send a command that states that you want to modify a field
+using this concept you can have multiple listeners to the same
+query or command that can alter the action or even termintate it.
