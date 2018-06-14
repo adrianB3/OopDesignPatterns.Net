@@ -1,0 +1,6 @@
+State is a pattern in which the object's 
+behaviour is determined by it's state.
+An Object transitions from one state to another(something needs to trigger a transition).
+
+A formalized construct which manages state
+and transitions is called a state machine.
